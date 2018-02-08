@@ -17,3 +17,11 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+	background-color: #a4d9e9;
+}
+
+.ship {
+	background-image: url(ship1.png);
+}
