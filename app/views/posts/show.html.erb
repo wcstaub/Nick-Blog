@@ -5,7 +5,7 @@
     <h3 class="panel-title"><%= @post.title %></h3>
   </div>
   <div class="panel-body">
-   By: <%= @post.user.email %><br><br>
+   By: <%= @post.user.username %><br><br>
     <%= @post.blog_entry %><br><br>
     <button class="btn btn-warning"><%= link_to 'Edit', edit_post_path(@post) %> </button>
   </div>
